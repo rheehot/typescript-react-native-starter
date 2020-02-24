@@ -1,5 +1,5 @@
-import * as React from 'react';
 import AppContainer from '@nav/AppContainer';
+import * as React from 'react';
 
 const uriPrefix = 'app://';
 
