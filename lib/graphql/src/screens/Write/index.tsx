@@ -10,8 +10,4 @@ const Write: NavigationBottomTabScreenComponent = () => {
   );
 };
 
-Write.navigationOptions = {
-  title: '작성',
-};
-
 export default Write;

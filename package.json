@@ -1,6 +1,6 @@
 {
   "name": "typescript-react-native-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quick and Easy TypeScript React Native Starter",
   "author": "AGUMON <ljlm0402@gmail.com>",
   "license": "MIT",
@@ -9,7 +9,9 @@
     "react-native",
     "typescript",
     "android",
-    "ios"
+    "ios",
+    "babel",
+    "graphql"
   ],
   "bin": {
     "typescript-react-native-starter": "bin/cli.js"

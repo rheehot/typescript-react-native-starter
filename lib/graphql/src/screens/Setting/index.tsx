@@ -10,8 +10,4 @@ const Setting: NavigationBottomTabScreenComponent = () => {
   );
 };
 
-Setting.navigationOptions = {
-  title: '환경 설정',
-};
-
 export default Setting;

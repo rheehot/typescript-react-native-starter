@@ -1,9 +1,17 @@
 import AppContainer from '@nav/AppContainer';
-import * as React from 'react';
+import React, { useEffect } from 'react';
+import SplashScreen from 'react-native-splash-screen';
 
 const uriPrefix = 'app://';
 
 const App = () => {
+  useEffect(() => {
+    const hide = setTimeout(() => {
+      SplashScreen.hide();
+    }, 1);
+    return () => clearTimeout(hide);
+  }, []);
+  
   return <AppContainer {...{ uriPrefix }} />;
 };
 

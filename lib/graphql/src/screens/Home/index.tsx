@@ -28,8 +28,4 @@ const Home: NavigationBottomTabScreenComponent = () => {
   );
 };
 
-Home.navigationOptions = {
-  title: '홈',
-};
-
 export default Home;

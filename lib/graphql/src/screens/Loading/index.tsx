@@ -14,8 +14,4 @@ const Loading: NavigationSwitchScreenComponent = ({ navigation }) => {
   );
 };
 
-Loading.navigationOptions = {
-  header: null,
-};
-
 export default Loading;
